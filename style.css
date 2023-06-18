@@ -83,10 +83,7 @@ h1{
    width: 30%;
   
 }
-button{
-    margin-inline: 10px;
-   
-}
+
 .outer-container{
     padding: 0 50px;
 }
@@ -150,10 +147,17 @@ input::placeholder{
 }
 button{
    
-    width: 70px;
+    width: 80px;
     height: 40px;
     border-radius: 5px;
     margin-right: 10px;
+    font-weight: bold;
+    color: rgb(93, 164, 219);
+}
+button{
+    /* margin-inline: 10px; */
+   
+    width: 80px;   
 }
 button:hover{
     opacity: .8;
@@ -170,4 +174,16 @@ button:hover{
     padding: 20px;
     border-radius: 20px;
     text-align: inherit;
+}
+footer{
+    width: 100%;
+    height: auto;
+    opacity: .8;
+    background-color: black;
+}
+.p{
+    color: white;
+}
+.footer{
+    text-align: center;
 }
